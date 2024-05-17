@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <!-- Google font family CDN link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Please add the favicon icon with your name initials -->
+    <link rel="shortcut icon" href="assets/developer.png" type="image/x-icon">
+    <style>
+        * {
+            font-family: "Josefin Sans", sans-serif;
+            text-decoration: none;
+        }
+
+        header {
+            padding: 10px;
+            background-color: rgb(28, 148, 122);
+            color: #fff;
+        }
+
+        .header-info {
+            margin-left: 10px;
+            margin-right: 30px;
+
+        }
+
+        nav a {
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 900;
+            font-style: normal;
+            text-decoration: none;
+            font-size: 1em;
+            text-shadow: 3px 0px 2px #f1f1f1;
+            margin-right: 25px;
+        }
+
+        #cv-download {
+            padding: 10px;
+            border-radius: 5px;
+            color: #FF4500;
+            background-color: #fff;
+            border: 2px solid #FF4500;
+            text-transform: uppercase;
+        }
+
+        #cv-download:hover {
+            color: #fff;
+            background-color: #FF4500;
+        }
+
+        .odd {
+            text-decoration: underline;
+        }
+
+        #tech table tr:hover {
+            background-color: #FFE4C4;
+            color: #FF4500;
+        }
+
+        .careerSummary {
+            background-color: #FFE4C4;
+            color: #FF4500;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        #home li {
+            padding: 0px 0px 10px 0px;
+            list-style: none;
+        }
+
+        #home li::selection {
+            background-color: bisque;
+        }
+
+        #home li::before {
+            content: "✍️";
+            padding-right: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid rgb(41, 41, 41);
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        #rolesResp li {
+            /* list-style-type: lower-alpha; */
+            /* list-style-type: lower-roman; */
+            list-style-type: none;
+            padding-bottom: 10px;
+        }
+
+        #rolesResp li::before {
+            content: "💻";
+            padding-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ================HEADER SECTION=============== -->
+    <header>
+
+        <i class="fa fa-lg fa-user" aria-hidden="true"></i>
+        <strong class="header-info">Pooja Raut</strong>
+        <i class="fa fa-lg fa-phone-square" aria-hidden="true"></i>
+        <strong class="header-info">91456 69547</strong>
+
+        <i class="fa fa-lg fa-envelope" aria-hidden="true"></i>
+        <strong class="header-info">poojaraut2618@gmail.com</strong>
+    </header>
+    <!-- ================NAVIGATION SECTION=============== -->
+    <nav>
+        <br>
+
+        <a href="#home">Home</a>
+        <a href="#tech">Tech Stack</a>
+        <a href="#education">Education</a>
+        <a href="#project">Projects</a>
+        <a href="#others">Others</a>
+        <a href="assets/resume.pdf" download=""><button id="cv-download">Download CV <i
+                    class="fa fa-solid fa-download"></i> </button></a>
+    </nav>
+    <!-- ================BODY OR MAIN SECTION=============== -->
+    <!-- =============Home Section============== -->
+    <section id="home">
+        <h2 class="careerSummary">Career Objectives</h2>
+        <p>To work in an organization where I can learn and grow my skills and help organizational growth</p>
+        <h2 class="careerSummary">Professional Summery</h2>
+        <ul>
+            <li>Having 1 years of experience in developing Single page Web Application using Angular8, HTML
+                5,CSS3, Bootstrap 5, Javascript, Typescript</li>
+            <li>Experience on working with version
+                control system - GIT and GitHub</li>
+            <li>Experience working with JIRA for user stories, and bug tracking</li>
+            <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+            <li>Working Exposure on ID's like VS Code & Notepad++</li>
+            <li>Good working experience under Agile methodologies environment</li>
+            <li>Experience in using Chrome Developer Tool for debugging & troubleshooting the code</li>
+            <li>Knowledge of NodeJS</li>
+            <li>Ability to work with people at all levels in the program</li>
+        </ul>
+    </section>
+    <hr>
+    <!-- ============Tech Stack Section=========== -->
+    <section id="tech">
+        <h2 class="careerSummary">Technology Stack</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Technology Stack</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>HTML</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>CSS</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Javascript</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Angular</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <!-- ============Education Section=========== -->
+    <section id="education">
+        <h2 class="careerSummary">My Education Details</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>School/College</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BE</td>
+                    <td>CSMIT, Shedung, Panvel</td>
+                    <td>Mumbai</td>
+                    <td>2019</td>
+                    <td>61.27%</td>
+                </tr>
+                <tr>
+                    <td>Diploma</td>
+                    <td>VJTI, Matunga, Mumbai</td>
+                    <td>Autonomous</td>
+                    <td>2016</td>
+                    <td>72.29%</td>
+                </tr>
+                <tr>
+                    <td>SSC</td>
+                    <td>DVS High School, KoparKhairane, Navi Mumbai</td>
+                    <td>State Board</td>
+                    <td>2013</td>
+                    <td>90.73%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <!-- ============Project Section=========== -->
+    <section id="project">
+        <h2 class="careerSummary">Project Details</h2>
+        <p>Name: Student Management</p>
+        <p>Environment: Angular 8, TypeScript, Javascript(ES6), HTML5, CSS, Bootstrap,
+            GitHub, Desktop Github Agile and JIRA, IDE-VS Code</p>
+        <p>Team: 06 Duration:
+            <i>2021-1<sup>st</sup>-July till <u>present</u></i>
+        </p>
+        <p>Project Description: This project is mainly used for student management in colleges, where
+            it help to manage student like <br> student registration. Student update information and to see all his or
+            her academic activities like score card, attendance.</p>
+        <hr>
+        <h4>Roles & Responsibilities</h4>
+        <ol id="rolesResp">
+            <li>Designed & implemented the user interface using HTML 5 and CSS</li>
+            <li>Work closely with backend developers for code integration</li>
+            <li>Identifying and troubleshooting issues with front end code</li>
+            <li>Worked on GIT as a version control</li>
+            <li>Used JIRA for bug tracking</li>
+            <li>Implemented project using Agile SCRUM methodology, Involved in daily stand up meetings, sprint showcase
+                and sprint retrospective </li>
+            <li>Involved in fixing technical issues</li>
+        </ol>
+    </section>
+    <hr>
+    <!-- ============Others Section=========== -->
+    <section id="others">
+        <h2 class="careerSummary" id="personal">My Personal Details</h2>
+        <h3>Profile Photo:</h3>
+        <img src="assets/developer.png" alt="developer" width="100px" height="100px">
+        <p>Mohit Sharma </p>
+        <p><strong>Mobile Number: </strong> 9900 8850 66</p>
+        <p><strong>Email: </strong> mohit.sharma@gmail.com</p>
+        <p><strong>Date of Birth:</strong> Feb-19-2004</p>
+        <p><strong>Address:</strong> OM Vrindavan colony, Pune</p>
+        <details>
+            <summary>Family Details</summary>
+            <ul>
+                <li>Father Name: Tarka Sharma</li>
+                <li>Mother Name: Manika Sharma</li>
+            </ul>
+        </details>
+    </section>
+
+    <!-- ================FOOTER SECTION=============== -->
+    <footer>
+        <h3>Follow Us</h3>
+        <i class="fa fa-brands fa-linkedin"></i>
+
+        <i class="fa fa-brands fa-instagram"></i>
+
+        <i class="fa fa-brands fa-twitter"></i>
+
+        <i class="fa fa-brands fa-youtube"></i>
+    </footer>
+
+</body>
+
+</html>
